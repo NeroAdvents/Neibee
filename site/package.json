@@ -1,0 +1,44 @@
+{
+  "name": "site",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://api.neibee.fr",
+  "dependencies": {
+    "antd": "^3.11.0",
+    "apollo-boost": "^0.1.28",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "font-awesome": "^4.7.0",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "jquery": "^1.9.1",
+    "js-cookie": "^2.2.0",
+    "mdbreact": "^4.8.5-patch.1",
+    "react": "^16.6.3",
+    "react-alice-carousel": "^1.13.1",
+    "react-animated-css": "^1.0.4",
+    "react-apollo": "^2.4.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-slick": "^0.23.2",
+    "reactstrap": "^6.5.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start --host 192.168.2.31",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

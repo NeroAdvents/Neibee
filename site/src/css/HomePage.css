@@ -1,0 +1,14 @@
+#apppage {
+    background-image: url('../js/assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#videobackground .view video {
+    top: 0!important;
+    left: 0!important;
+    transform: none!important;
+    height: 100vh;
+}

@@ -1,0 +1,15 @@
+#sideCol {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#middleCol {
+    background-color: rgb(5, 5, 5);
+}
+
+#text2 {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

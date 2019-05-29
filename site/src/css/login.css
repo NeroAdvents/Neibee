@@ -1,0 +1,59 @@
+#background-video {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background-color: rgba(126, 123, 215, 0.2);
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: white !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: white !important;
+}
+
+input:-ms-input-placeholder {
+    color: white !important;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
+    background: transparent;
+}
+
+input[placeholder]:focus {
+    color: white;
+    background: transparent;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+
+.input-group {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-group#inlineWithMargin {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+.input-group#inline {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+#inline {
+    max-width: 49%;
+}
+
+#inlineWithMargin {
+    max-width: 49%;
+    margin-left: 2%;
+}

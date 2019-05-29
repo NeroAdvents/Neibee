@@ -1,0 +1,102 @@
+@font-face {
+    font-family: customFont;
+    src: url("../js/assets/greething.ttf");
+}
+
+@font-face {
+    font-family: customFont2;
+    src: url("../js/assets/KGDefyingGravity.ttf");
+}
+
+@font-face {
+    font-family: customFont3;
+    src: url("../js/assets/coolvetica.ttf");
+}
+
+@font-face {
+    font-family: customFont4;
+    src: url("../js/assets/regularfashionDEMO.otf");
+}
+
+@font-face {
+    font-family: ornement;
+    src: url("../js/assets/Bergamot.ttf");
+}
+
+@import "~react-alice-carousel/lib/alice-carousel.css";
+
+#layout {
+    height: 100vh;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:30%;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text2 {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section1 {
+    background-image: url("../js/assets/map.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+#iconHover {
+    color: white;
+    transition: 0.3s;
+}
+
+#iconHover:hover {
+    color: orange;
+}
+
+#imgicon {
+    width: 40%;
+}
+
+#titleimgicon {
+    color: white;
+    font-family: customFont2;
+    margin-top: 20px;
+}
+
+#textimgicon {
+    color: white;
+    font-family: customFont4;
+    font-size: 1.1vw;
+}
+
+#imgcard {
+    height: 200px;
+    width: 420px;
+    background-size: cover;
+}
