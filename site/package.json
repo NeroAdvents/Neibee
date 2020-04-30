@@ -11,7 +11,7 @@
     "font-awesome": "^4.7.0",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.0",
     "js-cookie": "^2.2.0",
     "mdbreact": "^4.8.5-patch.1",
     "react": "^16.6.3",
